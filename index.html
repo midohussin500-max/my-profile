@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="WhatsApp Image 2025-10-31 at 16.31.08_2ae6f152.jpg" alt="avatar" class="avatar">
+    <h1>Ahmed Ramadan</h1>
+    <p>Graphic Designer</p>
+    <div class="links">
+      <a href="https://www.behance.net/1552b41a" target="_blank" class="link">
+        <span>Behance</span>
+        <button class="copy-btn" onclick="copyLink('https://www.behance.net/1552b41a')">copy</button>
+      </a>
+      <a href="https://www.facebook.com/share/1DDL2MqV11/" target="_blank" class="link">
+        <span>Facebook </span>
+        <button class="copy-btn" onclick="copyLink('https://www.facebook.com/share/1DDL2MqV11/')">copy</button>
+      </a>
+      <a href="https://www.instagram.com/ahmed_ramadan_logo?igsh=MWpocTh2ajdqdXlkNQ==" target="_blank" class="link">
+        <span>Instagram </span>
+        <button class="copy-btn" onclick="copyLink('https://www.instagram.com/ahmed_ramadan_logo?igsh=MWpocTh2ajdqdXlkNQ==')">copy</button>
+      </a>
+      <a href="https://www.linkedin.com/in/%D8%A7%D8%AD%D9%85%D8%AF-%D8%B1%D9%85%D8%B6%D8%A7%D9%86-ahmed-ramadan-153681282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="link">
+        <span>Linkedin</span>
+        <button class="copy-btn" onclick="copyLink('https://www.linkedin.com/in/%D8%A7%D8%AD%D9%85%D8%AF-%D8%B1%D9%85%D8%B6%D8%A7%D9%86-ahmed-ramadan-153681282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')">copy</button>
+      </a>
+      <a href="https://www.tiktok.com/@ahmed_ramadan408?_r=1&_t=ZS-910jJNF4StZ" target="_blank" class="link">
+        <span>Tiktok</span>
+        <button class="copy-btn" onclick="copyLink('https://www.tiktok.com/@ahmed_ramadan408?_r=1&_t=ZS-910jJNF4StZ')">copy</button>
+      </a>
+      <a href="https://t.me/Ahmmjtss" target="_blank" class="link">
+        <span>Telegram</span>
+        <button class="copy-btn" onclick="copyLink('https://t.me/Ahmmjtss')">copy</button>
+      </a>
+      <a href="https://wa.me/+201115673351" target="_blank" class="link">
+        <span>Whatsapp</span>
+        <button class="copy-btn" onclick="copyLink('https://wa.me/+201115673351')">copy</button>
+      </a>
+    </div>
+
+    <div class="footer">All rights reserved  2025 ©</div>
+  </div>
+
+  <script>
+    function copyLink(url) {
+      navigator.clipboard.writeText(url);
+      alert('Link copied:' + url);
+    }
+  </script>
+</body>
+</html>
